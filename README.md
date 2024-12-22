@@ -1,9 +1,9 @@
 Hi 
 
 create a virtual env
-"""
+'''
 python -m venv venv
-"""
+'''
 
 start the virtual env for windows
 """
