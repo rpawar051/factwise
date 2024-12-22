@@ -1,0 +1,29 @@
+{
+    "1": {
+        "id": 1,
+        "title": "study board task",
+        "description": "h1 study board task",
+        "user_id": "1",
+        "board_id": "8",
+        "creation_time": "2024-12-22T10:08:30.989677",
+        "status": "COMPLETE"
+    },
+    "2": {
+        "id": 2,
+        "title": "dev board task",
+        "description": "h1 dev board task",
+        "user_id": "2",
+        "board_id": "7",
+        "creation_time": "2024-12-22T10:08:54.414193",
+        "status": "OPEN"
+    },
+    "3": {
+        "id": 3,
+        "title": "dev1 board task",
+        "description": "h1 dev1 board task",
+        "user_id": "3",
+        "board_id": "6",
+        "creation_time": "2024-12-22T10:09:10.032981",
+        "status": "IN_PROGRESS"
+    }
+}

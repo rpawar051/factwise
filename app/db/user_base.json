@@ -1,0 +1,20 @@
+{
+    "1": {
+        "id": 1,
+        "name": "user1",
+        "display_name": "super user admin",
+        "creation_time": "2024-12-21T20:14:33.629527"
+    },
+    "2": {
+        "id": 2,
+        "name": "user2",
+        "display_name": "Nilima Pawar",
+        "creation_time": "2024-12-21T20:14:44.846839"
+    },
+    "3": {
+        "id": 3,
+        "name": "user3",
+        "display_name": "Parag Pawar",
+        "creation_time": "2024-12-21T20:15:15.777976"
+    }
+}

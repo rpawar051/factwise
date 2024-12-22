@@ -1,0 +1,316 @@
+{
+	"info": {
+		"_postman_id": "b82a47fb-ce75-4bb9-ac73-6f08a730a1f0",
+		"name": "Factwise",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "11409866"
+	},
+	"item": [
+		{
+			"name": "create_team",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"team4\",\r\n    \"description\": \"developer team4\",\r\n    \"admin\": \"A123104\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/create_team"
+			},
+			"response": []
+		},
+		{
+			"name": "create_board",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"study board\",\r\n    \"description\": \"h1 study board\",\r\n    \"team_id\": \"5\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/create_board"
+			},
+			"response": []
+		},
+		{
+			"name": "add_task",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"dev1 board task\",\r\n    \"description\": \"h1 dev1 board task\",\r\n    \"user_id\": \"3\",\r\n    \"board_id\": \"6\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/add_task"
+			},
+			"response": []
+		},
+		{
+			"name": "update_task_status",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"1\",\r\n    \"status\": \"COMPLETE\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/update_task_status"
+			},
+			"response": []
+		},
+		{
+			"name": "list_boards",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"2\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/list_boards"
+			},
+			"response": []
+		},
+		{
+			"name": "export_board",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"6\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/export_board"
+			},
+			"response": []
+		},
+		{
+			"name": "close_board",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"study board\",\r\n    \"description\": \"h1 study board\",\r\n    \"team_id\": \"5\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/create_board"
+			},
+			"response": []
+		},
+		{
+			"name": "create_user",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"user2\",\r\n    \"display_name\": \"Nilima Pawar\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/create_user"
+			},
+			"response": []
+		},
+		{
+			"name": "update_team",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"1\",\r\n    \"team\": {\r\n        \"name\": \"team1\",\r\n        \"description\": \"developer team 1 update\",\r\n        \"admin\": \"A123101\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/update_team"
+			},
+			"response": []
+		},
+		{
+			"name": "update_user",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"1\",\r\n    \"user\": {\r\n        \"display_name\": \"super user admin\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/update_user"
+			},
+			"response": []
+		},
+		{
+			"name": "describe_team",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/describe_team"
+			},
+			"response": []
+		},
+		{
+			"name": "add_users_to_team",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"4\",\r\n    \"users\": [\r\n        \"1\",\r\n        \"2\"\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/add_users_to_team"
+			},
+			"response": []
+		},
+		{
+			"name": "remove_users_from_team",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"4\",\r\n    \"users\": [\r\n        \"A123104\"\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/remove_users_from_team"
+			},
+			"response": []
+		},
+		{
+			"name": "list_team_users",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"4\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/list_team_users"
+			},
+			"response": []
+		},
+		{
+			"name": "get_user_teams",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"3\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/get_user_teams"
+			},
+			"response": []
+		},
+		{
+			"name": "describe_user",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/describe_user"
+			},
+			"response": []
+		},
+		{
+			"name": "list_teams",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://127.0.0.1:5000/list_teams"
+			},
+			"response": []
+		},
+		{
+			"name": "list_users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://127.0.0.1:5000/list_teams"
+			},
+			"response": []
+		}
+	]
+}

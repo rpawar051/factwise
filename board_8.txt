@@ -1,0 +1,6 @@
+Board: dev board
+Description: h1 dev board
+Status: OPEN
+Tasks:
+- study board task (Status: COMPLETE)
+  Description: h1 study board task

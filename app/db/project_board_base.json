@@ -1,0 +1,92 @@
+{
+    "1": {
+        "id": 1,
+        "name": "Study board",
+        "description": "h1 Study board",
+        "team_id": "1",
+        "creation_time": "2024-12-22T09:56:06.415067",
+        "status": "OPEN",
+        "end_time": null
+    },
+    "2": {
+        "id": 2,
+        "name": "dev board",
+        "description": "h1 dev board",
+        "team_id": "1",
+        "creation_time": "2024-12-22T09:56:38.947815",
+        "status": "OPEN",
+        "end_time": null
+    },
+    "3": {
+        "id": 3,
+        "name": "study board",
+        "description": "h1 study board",
+        "team_id": "2",
+        "creation_time": "2024-12-22T09:56:57.622425",
+        "status": "OPEN",
+        "end_time": null
+    },
+    "4": {
+        "id": 4,
+        "name": "dev board",
+        "description": "h1 dev board",
+        "team_id": "2",
+        "creation_time": "2024-12-22T09:57:09.939425",
+        "status": "OPEN",
+        "end_time": null
+    },
+    "5": {
+        "id": 5,
+        "name": "dev board",
+        "description": "h1 dev board",
+        "team_id": "3",
+        "creation_time": "2024-12-22T09:57:21.848819",
+        "status": "OPEN",
+        "end_time": null
+    },
+    "6": {
+        "id": 6,
+        "name": "study board",
+        "description": "h1 study board",
+        "team_id": "3",
+        "creation_time": "2024-12-22T09:57:33.895027",
+        "status": "OPEN",
+        "end_time": null
+    },
+    "7": {
+        "id": 7,
+        "name": "study board",
+        "description": "h1 study board",
+        "team_id": "4",
+        "creation_time": "2024-12-22T09:57:42.714930",
+        "status": "OPEN",
+        "end_time": null
+    },
+    "8": {
+        "id": 8,
+        "name": "dev board",
+        "description": "h1 dev board",
+        "team_id": "4",
+        "creation_time": "2024-12-22T09:57:51.837209",
+        "status": "OPEN",
+        "end_time": null
+    },
+    "9": {
+        "id": 9,
+        "name": "dev board",
+        "description": "h1 dev board",
+        "team_id": "5",
+        "creation_time": "2024-12-22T09:57:57.416614",
+        "status": "CLOSED",
+        "end_time": "2024-12-22T10:00:21.011931"
+    },
+    "10": {
+        "id": 10,
+        "name": "study board",
+        "description": "h1 study board",
+        "team_id": "5",
+        "creation_time": "2024-12-22T09:58:12.602107",
+        "status": "CLOSED",
+        "end_time": "2024-12-22T10:00:05.589621"
+    }
+}

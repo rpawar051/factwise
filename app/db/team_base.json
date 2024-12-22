@@ -1,0 +1,30 @@
+{
+    "1": {
+        "id": 1,
+        "name": "team1",
+        "description": "developer team 1 update",
+        "creation_time": "2024-12-22T09:33:04.402122",
+        "admin": "A123101"
+    },
+    "2": {
+        "id": 2,
+        "name": "team2",
+        "description": "developer team2",
+        "creation_time": "2024-12-22T09:33:38.402149",
+        "admin": "A123102"
+    },
+    "3": {
+        "id": 3,
+        "name": "team3",
+        "description": "developer team3",
+        "creation_time": "2024-12-22T09:34:02.476753",
+        "admin": "A123103"
+    },
+    "4": {
+        "id": 4,
+        "name": "team4",
+        "description": "developer team4",
+        "creation_time": "2024-12-22T09:34:21.685079",
+        "admin": "A123104"
+    }
+}
